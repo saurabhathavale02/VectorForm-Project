@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PopularMovie</string>
+    <string name="movie_list">Movie List</string>
+    <string name="ok">OK</string>
+</resources>

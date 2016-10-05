@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    >
+
+    <ImageView
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        app:srcCompat="@mipmap/app_icon"
+        android:id="@+id/appicon"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/appname"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="Popular Movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appname"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="cursive"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
