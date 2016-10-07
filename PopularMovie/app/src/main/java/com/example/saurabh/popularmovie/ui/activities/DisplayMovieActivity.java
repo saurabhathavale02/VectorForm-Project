@@ -109,7 +109,7 @@ public class DisplayMovieActivity extends AppCompatActivity implements DisplayMo
     public void DisplayMessage()
     {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("No Internet Connectivity.Please Try again");
+        builder.setMessage(R.string.Alert_dialog_msg);
 // Add the buttons
         builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id)

@@ -8,9 +8,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.Generated;
 
-@Generated("org.jsonschema2pojo")
 public class Result implements Serializable {
 
     @SerializedName("poster_path")

@@ -59,10 +59,6 @@ public class DisplayMoviePresenterTest
 
     }
 
-    @Test
-    public void clickMovieItem() throws Exception
-    {
 
-    }
 
 }
